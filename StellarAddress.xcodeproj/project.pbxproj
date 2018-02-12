@@ -61,6 +61,7 @@
 		F4E6263E2032226700CA78CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4E626402032226700CA78CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4E62649203222E100CA78CD /* StellarSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StellarSDK.xcodeproj; path = ../../StellarSDK/StellarSDK.xcodeproj; sourceTree = "<group>"; };
+		F4E6265E2032310B00CA78CD /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		F4E6262B2032226700CA78CD = {
 			isa = PBXGroup;
 			children = (
+				F4E6265E2032310B00CA78CD /* Readme.md */,
 				F4E626362032226700CA78CD /* StellarAddress */,
 				F4E62648203222C300CA78CD /* Frameworks */,
 				F4E626352032226700CA78CD /* Products */,
