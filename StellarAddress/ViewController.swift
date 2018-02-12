@@ -7,21 +7,21 @@
 //
 
 import Cocoa
+import StellarSDK
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var textPublic: NSTextField!
+    @IBOutlet weak var textSecret: NSTextField!
+    
+    @IBAction func onGenerate(_ sender: Any) {
+        let act = StellarSDK.Account.random()
+        textPublic.stringValue = act.publicKey
+        textSecret.stringValue = act.secretKey
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        onGenerate(self)
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
 }
-
